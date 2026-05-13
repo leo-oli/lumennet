@@ -1,0 +1,11 @@
+[project]
+name = "frontend"
+version = "1.0.0"
+description = "Gradio frontend for the LumenNet: a Low-Light Image Enhancement neural network"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gradio>=6.14.0",
+    "httpx>=0.28.1",
+    "pillow>=12.2.0",
+]

@@ -1,0 +1,13 @@
+[project]
+name = "lumennet-backend"
+version = "1.0.0"
+description = "FastAPI backend for the LumenNet: a Low-Light Image Enhancement neural network"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.136.1",
+    "onnxruntime>=1.26.0",
+    "pillow>=12.2.0",
+    "python-multipart>=0.0.28",
+    "uvicorn>=0.46.0",
+]
