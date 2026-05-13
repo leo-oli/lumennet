@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "LumenNet: Deep Learning Low-Light Image Enhancement"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Oliinyk"
+    given-names: "Leonid"
+    orcid: "https://orcid.org/0009-0000-9392-2271"
+  - family-names: "Lall"
+    given-names: "Sara"
+version: 1.0.0
+date-released: 2026-05-13
+abstract: "LumenNet is a deep learning-based image enhancement pipeline designed to recover structural details and accurate colors from underexposed, low-light photographs. It utilizes a U-Net architecture with a ResNet18 backbone, operating conceptually within the LAB color space to preserve chromaticity while enhancing luminance. The system is deployed as a microservice architecture with a FastAPI backend and a Gradio frontend."
+keywords:
+  - "deep learning"
+  - "image enhancement"
+  - "low-light"
+  - "computer vision"
+  - "onnx"
+license: "MIT"
+repository-code: "https://github.com/leo-oli/lumennet"
