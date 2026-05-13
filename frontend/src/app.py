@@ -31,7 +31,7 @@ if SAMPLES_DIR.exists():
 
 # --- UI FRONTEND ---
 with gr.Blocks(title="LumenNet AI") as app:
-    gr.Markdown("# 🔦 LumenNet: Low-Light Enhancement")
+    gr.Markdown("# LumenNet: Low-Light Enhancement")
     gr.Markdown(
         "Upload an underexposed image to recover hidden details and colors. | [View on GitHub](https://github.com/leo-oli/lumennet)"
     )
@@ -40,7 +40,7 @@ with gr.Blocks(title="LumenNet AI") as app:
         # make the upload column narrower and the result column wider
         with gr.Column(scale=1):
             input_image = gr.Image(type="pil", label="Upload Dark Image")
-            enhance_btn = gr.Button("✨ Enhance Image", variant="primary")
+            enhance_btn = gr.Button("Enhance Image", variant="primary")
 
         with gr.Column(scale=2):
             output_slider = gr.ImageSlider(
@@ -52,7 +52,7 @@ with gr.Blocks(title="LumenNet AI") as app:
 
     # built-in examples
     if example_files:
-        gr.Markdown("### 🖼️ Try Examples")
+        gr.Markdown("### Try Examples")
         gr.Examples(
             examples=example_files,
             inputs=input_image,
